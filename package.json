@@ -1,0 +1,30 @@
+{
+  "name": "task-tracker-express2",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LQUnge/task-tracker-express2.git"
+  },
+  "author": "Prorab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LQUnge/task-tracker-express2/issues"
+  },
+  "homepage": "https://github.com/LQUnge/task-tracker-express2#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
